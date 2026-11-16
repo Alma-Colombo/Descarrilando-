@@ -1,0 +1,81 @@
+table {
+    width: 90%;
+    margin: 40px auto;
+    border-collapse: collapse;
+    background-color: #fdf8f0; /* crema */
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+thead {
+    background-color: #8B5E3C; /* marrón */
+    color: white;
+}
+
+thead th {
+    padding: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+tbody tr {
+    border-bottom: 1px solid #d9c8b4;
+    transition: 0.3s;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f5efe4; /* crema más oscuro */
+}
+
+tbody tr:hover {
+    background-color: #dce8cf; /* verde claro */
+}
+
+tbody td {
+    padding: 15px;
+    text-align: center;
+    color: #5A3E2B; /* marrón oscuro */
+    font-size: 16px;
+}
+
+tbody img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 3px solid #d98b2b; /* naranja */
+}
+
+button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* Botón editar */
+.btn-editar {
+    background-color: #d98b2b; /* naranja */
+    color: white;
+}
+
+.btn-editar:hover {
+    background-color: #b86e16;
+}
+
+/* Botón eliminar */
+.btn-eliminar {
+    background-color: #6b8e23; /* verde oliva */
+    color: white;
+}
+
+.btn-eliminar:hover {
+    background-color: #556b1d;
+}
+
